@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/src/main.cc.o: \
- /home/wego/cpp_study/chapter11/src/main.cc /usr/include/stdc-predef.h \
- /usr/include/c++/7/iostream \
+ /home/wego/cpp_study/chapter11/diff_ref_n_ptr/src/main.cc \
+ /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

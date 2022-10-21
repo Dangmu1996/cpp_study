@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/wego/cpp_study/chapter11/src/main.cc" "CMakeFiles/main.dir/src/main.cc.o" "gcc" "CMakeFiles/main.dir/src/main.cc.o.d"
+  "/home/wego/cpp_study/chapter11/diff_ref_n_ptr/src/main.cc" "CMakeFiles/main.dir/src/main.cc.o" "gcc" "CMakeFiles/main.dir/src/main.cc.o.d"
   )
 
 # Targets to which this target links.
