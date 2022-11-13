@@ -1,0 +1,4 @@
+/home/wego/cpp_study/chapter11/diff_const_n_static/build/CMakeFiles/rebuild_cache.dir
+/home/wego/cpp_study/chapter11/diff_const_n_static/build/CMakeFiles/linker.dir
+/home/wego/cpp_study/chapter11/diff_const_n_static/build/CMakeFiles/edit_cache.dir
+/home/wego/cpp_study/chapter11/diff_const_n_static/build/CMakeFiles/external_link.dir

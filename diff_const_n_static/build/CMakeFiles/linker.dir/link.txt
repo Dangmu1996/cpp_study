@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblinker.a CMakeFiles/linker.dir/lib/linker.cpp.o
+/usr/bin/ranlib liblinker.a
