@@ -117,78 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linker
+# Target rules for targets named static
 
 # Build rule for target.
-linker: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linker
-.PHONY : linker
+static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static
+.PHONY : static
 
 # fast build rule for target.
-linker/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linker.dir/build.make CMakeFiles/linker.dir/build
-.PHONY : linker/fast
+static/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/build
+.PHONY : static/fast
 
-#=============================================================================
-# Target rules for targets named external_link
-
-# Build rule for target.
-external_link: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external_link
-.PHONY : external_link
-
-# fast build rule for target.
-external_link/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/external_link.dir/build.make CMakeFiles/external_link.dir/build
-.PHONY : external_link/fast
-
-lib/linker.o: lib/linker.cpp.o
-.PHONY : lib/linker.o
+src/static.o: src/static.cpp.o
+.PHONY : src/static.o
 
 # target to build an object file
-lib/linker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linker.dir/build.make CMakeFiles/linker.dir/lib/linker.cpp.o
-.PHONY : lib/linker.cpp.o
+src/static.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/src/static.cpp.o
+.PHONY : src/static.cpp.o
 
-lib/linker.i: lib/linker.cpp.i
-.PHONY : lib/linker.i
-
-# target to preprocess a source file
-lib/linker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linker.dir/build.make CMakeFiles/linker.dir/lib/linker.cpp.i
-.PHONY : lib/linker.cpp.i
-
-lib/linker.s: lib/linker.cpp.s
-.PHONY : lib/linker.s
-
-# target to generate assembly for a file
-lib/linker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linker.dir/build.make CMakeFiles/linker.dir/lib/linker.cpp.s
-.PHONY : lib/linker.cpp.s
-
-src/external_link.o: src/external_link.cpp.o
-.PHONY : src/external_link.o
-
-# target to build an object file
-src/external_link.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/external_link.dir/build.make CMakeFiles/external_link.dir/src/external_link.cpp.o
-.PHONY : src/external_link.cpp.o
-
-src/external_link.i: src/external_link.cpp.i
-.PHONY : src/external_link.i
+src/static.i: src/static.cpp.i
+.PHONY : src/static.i
 
 # target to preprocess a source file
-src/external_link.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/external_link.dir/build.make CMakeFiles/external_link.dir/src/external_link.cpp.i
-.PHONY : src/external_link.cpp.i
+src/static.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/src/static.cpp.i
+.PHONY : src/static.cpp.i
 
-src/external_link.s: src/external_link.cpp.s
-.PHONY : src/external_link.s
+src/static.s: src/static.cpp.s
+.PHONY : src/static.s
 
 # target to generate assembly for a file
-src/external_link.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/external_link.dir/build.make CMakeFiles/external_link.dir/src/external_link.cpp.s
-.PHONY : src/external_link.cpp.s
+src/static.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/src/static.cpp.s
+.PHONY : src/static.cpp.s
 
 # Help Target
 help:
@@ -198,14 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... external_link"
-	@echo "... linker"
-	@echo "... lib/linker.o"
-	@echo "... lib/linker.i"
-	@echo "... lib/linker.s"
-	@echo "... src/external_link.o"
-	@echo "... src/external_link.i"
-	@echo "... src/external_link.s"
+	@echo "... static"
+	@echo "... src/static.o"
+	@echo "... src/static.i"
+	@echo "... src/static.s"
 .PHONY : help
 
 
