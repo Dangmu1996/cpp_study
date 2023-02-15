@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/funter_tpye_allias.dir/src/funter_tpye_allias.cc.o  -o funter_tpye_allias 

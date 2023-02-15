@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named funter_tpye_allias
+
+# Build rule for target.
+funter_tpye_allias: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 funter_tpye_allias
+.PHONY : funter_tpye_allias
+
+# fast build rule for target.
+funter_tpye_allias/fast:
+	$(MAKE) -f CMakeFiles/funter_tpye_allias.dir/build.make CMakeFiles/funter_tpye_allias.dir/build
+.PHONY : funter_tpye_allias/fast
+
+#=============================================================================
 # Target rules for targets named type_allias
 
 # Build rule for target.
@@ -122,6 +135,33 @@ type_allias: cmake_check_build_system
 type_allias/fast:
 	$(MAKE) -f CMakeFiles/type_allias.dir/build.make CMakeFiles/type_allias.dir/build
 .PHONY : type_allias/fast
+
+src/funter_tpye_allias.o: src/funter_tpye_allias.cc.o
+
+.PHONY : src/funter_tpye_allias.o
+
+# target to build an object file
+src/funter_tpye_allias.cc.o:
+	$(MAKE) -f CMakeFiles/funter_tpye_allias.dir/build.make CMakeFiles/funter_tpye_allias.dir/src/funter_tpye_allias.cc.o
+.PHONY : src/funter_tpye_allias.cc.o
+
+src/funter_tpye_allias.i: src/funter_tpye_allias.cc.i
+
+.PHONY : src/funter_tpye_allias.i
+
+# target to preprocess a source file
+src/funter_tpye_allias.cc.i:
+	$(MAKE) -f CMakeFiles/funter_tpye_allias.dir/build.make CMakeFiles/funter_tpye_allias.dir/src/funter_tpye_allias.cc.i
+.PHONY : src/funter_tpye_allias.cc.i
+
+src/funter_tpye_allias.s: src/funter_tpye_allias.cc.s
+
+.PHONY : src/funter_tpye_allias.s
+
+# target to generate assembly for a file
+src/funter_tpye_allias.cc.s:
+	$(MAKE) -f CMakeFiles/funter_tpye_allias.dir/build.make CMakeFiles/funter_tpye_allias.dir/src/funter_tpye_allias.cc.s
+.PHONY : src/funter_tpye_allias.cc.s
 
 src/tpye_allias.o: src/tpye_allias.cc.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... funter_tpye_allias"
 	@echo "... type_allias"
+	@echo "... src/funter_tpye_allias.o"
+	@echo "... src/funter_tpye_allias.i"
+	@echo "... src/funter_tpye_allias.s"
 	@echo "... src/tpye_allias.o"
 	@echo "... src/tpye_allias.i"
 	@echo "... src/tpye_allias.s"
