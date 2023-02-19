@@ -1,4 +1,7 @@
 /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/funter_tpye_allias.dir
+/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/reinterpret_cast.dir
+/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/dynamic_cast.dir
+/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/static_cast.dir
 /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/type_allias.dir
 /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/edit_cache.dir
 /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/method_member_allias.dir

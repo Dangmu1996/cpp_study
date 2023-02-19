@@ -124,6 +124,45 @@ funter_tpye_allias/fast:
 .PHONY : funter_tpye_allias/fast
 
 #=============================================================================
+# Target rules for targets named reinterpret_cast
+
+# Build rule for target.
+reinterpret_cast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reinterpret_cast
+.PHONY : reinterpret_cast
+
+# fast build rule for target.
+reinterpret_cast/fast:
+	$(MAKE) -f CMakeFiles/reinterpret_cast.dir/build.make CMakeFiles/reinterpret_cast.dir/build
+.PHONY : reinterpret_cast/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_cast
+
+# Build rule for target.
+dynamic_cast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_cast
+.PHONY : dynamic_cast
+
+# fast build rule for target.
+dynamic_cast/fast:
+	$(MAKE) -f CMakeFiles/dynamic_cast.dir/build.make CMakeFiles/dynamic_cast.dir/build
+.PHONY : dynamic_cast/fast
+
+#=============================================================================
+# Target rules for targets named static_cast
+
+# Build rule for target.
+static_cast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 static_cast
+.PHONY : static_cast
+
+# fast build rule for target.
+static_cast/fast:
+	$(MAKE) -f CMakeFiles/static_cast.dir/build.make CMakeFiles/static_cast.dir/build
+.PHONY : static_cast/fast
+
+#=============================================================================
 # Target rules for targets named type_allias
 
 # Build rule for target.
@@ -189,6 +228,33 @@ lib/Employee.cpp.s:
 	$(MAKE) -f CMakeFiles/Employee.dir/build.make CMakeFiles/Employee.dir/lib/Employee.cpp.s
 .PHONY : lib/Employee.cpp.s
 
+src/dynamic_cast.o: src/dynamic_cast.cc.o
+
+.PHONY : src/dynamic_cast.o
+
+# target to build an object file
+src/dynamic_cast.cc.o:
+	$(MAKE) -f CMakeFiles/dynamic_cast.dir/build.make CMakeFiles/dynamic_cast.dir/src/dynamic_cast.cc.o
+.PHONY : src/dynamic_cast.cc.o
+
+src/dynamic_cast.i: src/dynamic_cast.cc.i
+
+.PHONY : src/dynamic_cast.i
+
+# target to preprocess a source file
+src/dynamic_cast.cc.i:
+	$(MAKE) -f CMakeFiles/dynamic_cast.dir/build.make CMakeFiles/dynamic_cast.dir/src/dynamic_cast.cc.i
+.PHONY : src/dynamic_cast.cc.i
+
+src/dynamic_cast.s: src/dynamic_cast.cc.s
+
+.PHONY : src/dynamic_cast.s
+
+# target to generate assembly for a file
+src/dynamic_cast.cc.s:
+	$(MAKE) -f CMakeFiles/dynamic_cast.dir/build.make CMakeFiles/dynamic_cast.dir/src/dynamic_cast.cc.s
+.PHONY : src/dynamic_cast.cc.s
+
 src/funter_tpye_allias.o: src/funter_tpye_allias.cc.o
 
 .PHONY : src/funter_tpye_allias.o
@@ -243,6 +309,60 @@ src/method_member_allias.cpp.s:
 	$(MAKE) -f CMakeFiles/method_member_allias.dir/build.make CMakeFiles/method_member_allias.dir/src/method_member_allias.cpp.s
 .PHONY : src/method_member_allias.cpp.s
 
+src/reinterpret_cast.o: src/reinterpret_cast.cc.o
+
+.PHONY : src/reinterpret_cast.o
+
+# target to build an object file
+src/reinterpret_cast.cc.o:
+	$(MAKE) -f CMakeFiles/reinterpret_cast.dir/build.make CMakeFiles/reinterpret_cast.dir/src/reinterpret_cast.cc.o
+.PHONY : src/reinterpret_cast.cc.o
+
+src/reinterpret_cast.i: src/reinterpret_cast.cc.i
+
+.PHONY : src/reinterpret_cast.i
+
+# target to preprocess a source file
+src/reinterpret_cast.cc.i:
+	$(MAKE) -f CMakeFiles/reinterpret_cast.dir/build.make CMakeFiles/reinterpret_cast.dir/src/reinterpret_cast.cc.i
+.PHONY : src/reinterpret_cast.cc.i
+
+src/reinterpret_cast.s: src/reinterpret_cast.cc.s
+
+.PHONY : src/reinterpret_cast.s
+
+# target to generate assembly for a file
+src/reinterpret_cast.cc.s:
+	$(MAKE) -f CMakeFiles/reinterpret_cast.dir/build.make CMakeFiles/reinterpret_cast.dir/src/reinterpret_cast.cc.s
+.PHONY : src/reinterpret_cast.cc.s
+
+src/static_cast.o: src/static_cast.cc.o
+
+.PHONY : src/static_cast.o
+
+# target to build an object file
+src/static_cast.cc.o:
+	$(MAKE) -f CMakeFiles/static_cast.dir/build.make CMakeFiles/static_cast.dir/src/static_cast.cc.o
+.PHONY : src/static_cast.cc.o
+
+src/static_cast.i: src/static_cast.cc.i
+
+.PHONY : src/static_cast.i
+
+# target to preprocess a source file
+src/static_cast.cc.i:
+	$(MAKE) -f CMakeFiles/static_cast.dir/build.make CMakeFiles/static_cast.dir/src/static_cast.cc.i
+.PHONY : src/static_cast.cc.i
+
+src/static_cast.s: src/static_cast.cc.s
+
+.PHONY : src/static_cast.s
+
+# target to generate assembly for a file
+src/static_cast.cc.s:
+	$(MAKE) -f CMakeFiles/static_cast.dir/build.make CMakeFiles/static_cast.dir/src/static_cast.cc.s
+.PHONY : src/static_cast.cc.s
+
 src/tpye_allias.o: src/tpye_allias.cc.o
 
 .PHONY : src/tpye_allias.o
@@ -277,6 +397,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... funter_tpye_allias"
+	@echo "... reinterpret_cast"
+	@echo "... dynamic_cast"
+	@echo "... static_cast"
 	@echo "... type_allias"
 	@echo "... edit_cache"
 	@echo "... method_member_allias"
@@ -285,12 +408,21 @@ help:
 	@echo "... lib/Employee.o"
 	@echo "... lib/Employee.i"
 	@echo "... lib/Employee.s"
+	@echo "... src/dynamic_cast.o"
+	@echo "... src/dynamic_cast.i"
+	@echo "... src/dynamic_cast.s"
 	@echo "... src/funter_tpye_allias.o"
 	@echo "... src/funter_tpye_allias.i"
 	@echo "... src/funter_tpye_allias.s"
 	@echo "... src/method_member_allias.o"
 	@echo "... src/method_member_allias.i"
 	@echo "... src/method_member_allias.s"
+	@echo "... src/reinterpret_cast.o"
+	@echo "... src/reinterpret_cast.i"
+	@echo "... src/reinterpret_cast.s"
+	@echo "... src/static_cast.o"
+	@echo "... src/static_cast.i"
+	@echo "... src/static_cast.s"
 	@echo "... src/tpye_allias.o"
 	@echo "... src/tpye_allias.i"
 	@echo "... src/tpye_allias.s"
