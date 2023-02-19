@@ -47,4 +47,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/funter_tpye_allias.dir/DependInfo.cmake"
   "CMakeFiles/type_allias.dir/DependInfo.cmake"
+  "CMakeFiles/method_member_allias.dir/DependInfo.cmake"
+  "CMakeFiles/Employee.dir/DependInfo.cmake"
   )

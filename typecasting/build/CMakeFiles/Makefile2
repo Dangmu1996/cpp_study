@@ -55,6 +55,8 @@ CMAKE_BINARY_DIR = /home/dangmu1996/cpp_study/typecasting/build
 # The main recursive "all" target.
 all: CMakeFiles/funter_tpye_allias.dir/all
 all: CMakeFiles/type_allias.dir/all
+all: CMakeFiles/method_member_allias.dir/all
+all: CMakeFiles/Employee.dir/all
 
 .PHONY : all
 
@@ -66,6 +68,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/funter_tpye_allias.dir/clean
 clean: CMakeFiles/type_allias.dir/clean
+clean: CMakeFiles/method_member_allias.dir/clean
+clean: CMakeFiles/Employee.dir/clean
 
 .PHONY : clean
 
@@ -76,7 +80,7 @@ clean: CMakeFiles/type_allias.dir/clean
 CMakeFiles/funter_tpye_allias.dir/all:
 	$(MAKE) -f CMakeFiles/funter_tpye_allias.dir/build.make CMakeFiles/funter_tpye_allias.dir/depend
 	$(MAKE) -f CMakeFiles/funter_tpye_allias.dir/build.make CMakeFiles/funter_tpye_allias.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles --progress-num=1,2 "Built target funter_tpye_allias"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles --progress-num=3,4 "Built target funter_tpye_allias"
 .PHONY : CMakeFiles/funter_tpye_allias.dir/all
 
 # Build rule for subdir invocation for target.
@@ -103,7 +107,7 @@ CMakeFiles/funter_tpye_allias.dir/clean:
 CMakeFiles/type_allias.dir/all:
 	$(MAKE) -f CMakeFiles/type_allias.dir/build.make CMakeFiles/type_allias.dir/depend
 	$(MAKE) -f CMakeFiles/type_allias.dir/build.make CMakeFiles/type_allias.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles --progress-num=3,4 "Built target type_allias"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles --progress-num=7,8 "Built target type_allias"
 .PHONY : CMakeFiles/type_allias.dir/all
 
 # Build rule for subdir invocation for target.
@@ -122,6 +126,60 @@ type_allias: CMakeFiles/type_allias.dir/rule
 CMakeFiles/type_allias.dir/clean:
 	$(MAKE) -f CMakeFiles/type_allias.dir/build.make CMakeFiles/type_allias.dir/clean
 .PHONY : CMakeFiles/type_allias.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/method_member_allias.dir
+
+# All Build rule for target.
+CMakeFiles/method_member_allias.dir/all: CMakeFiles/Employee.dir/all
+	$(MAKE) -f CMakeFiles/method_member_allias.dir/build.make CMakeFiles/method_member_allias.dir/depend
+	$(MAKE) -f CMakeFiles/method_member_allias.dir/build.make CMakeFiles/method_member_allias.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles --progress-num=5,6 "Built target method_member_allias"
+.PHONY : CMakeFiles/method_member_allias.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/method_member_allias.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/method_member_allias.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles 0
+.PHONY : CMakeFiles/method_member_allias.dir/rule
+
+# Convenience name for target.
+method_member_allias: CMakeFiles/method_member_allias.dir/rule
+
+.PHONY : method_member_allias
+
+# clean rule for target.
+CMakeFiles/method_member_allias.dir/clean:
+	$(MAKE) -f CMakeFiles/method_member_allias.dir/build.make CMakeFiles/method_member_allias.dir/clean
+.PHONY : CMakeFiles/method_member_allias.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Employee.dir
+
+# All Build rule for target.
+CMakeFiles/Employee.dir/all:
+	$(MAKE) -f CMakeFiles/Employee.dir/build.make CMakeFiles/Employee.dir/depend
+	$(MAKE) -f CMakeFiles/Employee.dir/build.make CMakeFiles/Employee.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles --progress-num=1,2 "Built target Employee"
+.PHONY : CMakeFiles/Employee.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Employee.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Employee.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles 0
+.PHONY : CMakeFiles/Employee.dir/rule
+
+# Convenience name for target.
+Employee: CMakeFiles/Employee.dir/rule
+
+.PHONY : Employee
+
+# clean rule for target.
+CMakeFiles/Employee.dir/clean:
+	$(MAKE) -f CMakeFiles/Employee.dir/build.make CMakeFiles/Employee.dir/clean
+.PHONY : CMakeFiles/Employee.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

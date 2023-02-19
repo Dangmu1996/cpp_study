@@ -1,4 +1,6 @@
-/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/rebuild_cache.dir
-/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/edit_cache.dir
 /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/funter_tpye_allias.dir
 /home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/type_allias.dir
+/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/edit_cache.dir
+/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/method_member_allias.dir
+/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/rebuild_cache.dir
+/home/dangmu1996/cpp_study/typecasting/build/CMakeFiles/Employee.dir

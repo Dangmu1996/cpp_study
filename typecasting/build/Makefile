@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/dangmu1996/cpp_study/typecasting/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -136,6 +136,59 @@ type_allias/fast:
 	$(MAKE) -f CMakeFiles/type_allias.dir/build.make CMakeFiles/type_allias.dir/build
 .PHONY : type_allias/fast
 
+#=============================================================================
+# Target rules for targets named method_member_allias
+
+# Build rule for target.
+method_member_allias: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 method_member_allias
+.PHONY : method_member_allias
+
+# fast build rule for target.
+method_member_allias/fast:
+	$(MAKE) -f CMakeFiles/method_member_allias.dir/build.make CMakeFiles/method_member_allias.dir/build
+.PHONY : method_member_allias/fast
+
+#=============================================================================
+# Target rules for targets named Employee
+
+# Build rule for target.
+Employee: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Employee
+.PHONY : Employee
+
+# fast build rule for target.
+Employee/fast:
+	$(MAKE) -f CMakeFiles/Employee.dir/build.make CMakeFiles/Employee.dir/build
+.PHONY : Employee/fast
+
+lib/Employee.o: lib/Employee.cpp.o
+
+.PHONY : lib/Employee.o
+
+# target to build an object file
+lib/Employee.cpp.o:
+	$(MAKE) -f CMakeFiles/Employee.dir/build.make CMakeFiles/Employee.dir/lib/Employee.cpp.o
+.PHONY : lib/Employee.cpp.o
+
+lib/Employee.i: lib/Employee.cpp.i
+
+.PHONY : lib/Employee.i
+
+# target to preprocess a source file
+lib/Employee.cpp.i:
+	$(MAKE) -f CMakeFiles/Employee.dir/build.make CMakeFiles/Employee.dir/lib/Employee.cpp.i
+.PHONY : lib/Employee.cpp.i
+
+lib/Employee.s: lib/Employee.cpp.s
+
+.PHONY : lib/Employee.s
+
+# target to generate assembly for a file
+lib/Employee.cpp.s:
+	$(MAKE) -f CMakeFiles/Employee.dir/build.make CMakeFiles/Employee.dir/lib/Employee.cpp.s
+.PHONY : lib/Employee.cpp.s
+
 src/funter_tpye_allias.o: src/funter_tpye_allias.cc.o
 
 .PHONY : src/funter_tpye_allias.o
@@ -162,6 +215,33 @@ src/funter_tpye_allias.s: src/funter_tpye_allias.cc.s
 src/funter_tpye_allias.cc.s:
 	$(MAKE) -f CMakeFiles/funter_tpye_allias.dir/build.make CMakeFiles/funter_tpye_allias.dir/src/funter_tpye_allias.cc.s
 .PHONY : src/funter_tpye_allias.cc.s
+
+src/method_member_allias.o: src/method_member_allias.cpp.o
+
+.PHONY : src/method_member_allias.o
+
+# target to build an object file
+src/method_member_allias.cpp.o:
+	$(MAKE) -f CMakeFiles/method_member_allias.dir/build.make CMakeFiles/method_member_allias.dir/src/method_member_allias.cpp.o
+.PHONY : src/method_member_allias.cpp.o
+
+src/method_member_allias.i: src/method_member_allias.cpp.i
+
+.PHONY : src/method_member_allias.i
+
+# target to preprocess a source file
+src/method_member_allias.cpp.i:
+	$(MAKE) -f CMakeFiles/method_member_allias.dir/build.make CMakeFiles/method_member_allias.dir/src/method_member_allias.cpp.i
+.PHONY : src/method_member_allias.cpp.i
+
+src/method_member_allias.s: src/method_member_allias.cpp.s
+
+.PHONY : src/method_member_allias.s
+
+# target to generate assembly for a file
+src/method_member_allias.cpp.s:
+	$(MAKE) -f CMakeFiles/method_member_allias.dir/build.make CMakeFiles/method_member_allias.dir/src/method_member_allias.cpp.s
+.PHONY : src/method_member_allias.cpp.s
 
 src/tpye_allias.o: src/tpye_allias.cc.o
 
@@ -196,13 +276,21 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... funter_tpye_allias"
 	@echo "... type_allias"
+	@echo "... edit_cache"
+	@echo "... method_member_allias"
+	@echo "... rebuild_cache"
+	@echo "... Employee"
+	@echo "... lib/Employee.o"
+	@echo "... lib/Employee.i"
+	@echo "... lib/Employee.s"
 	@echo "... src/funter_tpye_allias.o"
 	@echo "... src/funter_tpye_allias.i"
 	@echo "... src/funter_tpye_allias.s"
+	@echo "... src/method_member_allias.o"
+	@echo "... src/method_member_allias.i"
+	@echo "... src/method_member_allias.s"
 	@echo "... src/tpye_allias.o"
 	@echo "... src/tpye_allias.i"
 	@echo "... src/tpye_allias.s"
