@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/include/Logger.hpp
+
+/home/dangmu1996/cpp_study/11_7/lib/Logger.cpp
+Logger.hpp
+/home/dangmu1996/cpp_study/11_7/lib/Logger.hpp
+iostream
+-
+
