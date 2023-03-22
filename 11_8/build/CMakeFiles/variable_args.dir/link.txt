@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/variable_args.dir/src/variable_args.cc.o  -o variable_args 
