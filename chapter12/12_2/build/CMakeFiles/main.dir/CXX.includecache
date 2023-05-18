@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dangmu1996/cpp_study/chapter12/12_2/src/main.cpp
+memory
+-
+vector
+-
+utility
+-
+optional
+-
+
