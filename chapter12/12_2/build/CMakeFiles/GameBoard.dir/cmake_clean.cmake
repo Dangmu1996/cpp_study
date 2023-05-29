@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.o"
+  "CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o"
   "libGameBoard.a"
   "libGameBoard.pdb"
 )

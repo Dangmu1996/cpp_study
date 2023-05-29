@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dangmu1996/cpp_study/chapter12/12_2/./lib/include 
+CXX_INCLUDES = -I/home/wego/cpp_study/cpp_study/chapter12/12_2/./lib/include 
 

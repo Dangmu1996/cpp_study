@@ -5,8 +5,6 @@
 #include <utility>
 #include <optional>
 
-#include "GamePiece.hpp"
-
 template <typename T>
 class Grid
 {
@@ -37,3 +35,5 @@ private:
     size_t mWidth, mHeight;
 
 };
+
+#include "./GridDefinition.hpp"

@@ -1,4 +1,10 @@
-#include <GameBoardTemplate.hpp>
+#pragma once
+
+#include <memory>
+#include <vector>
+#include <utility>
+#include <optional>
+
 
 template <typename T>
 Grid<T>::Grid(size_t width, size_t height)

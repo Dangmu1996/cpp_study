@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dangmu1996/cpp_study/chapter12/12_2
+CMAKE_SOURCE_DIR = /home/wego/cpp_study/cpp_study/chapter12/12_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dangmu1996/cpp_study/chapter12/12_2/build
+CMAKE_BINARY_DIR = /home/wego/cpp_study/cpp_study/chapter12/12_2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GameBoard.dir/depend.make
@@ -57,30 +57,30 @@ include CMakeFiles/GameBoard.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GameBoard.dir/flags.make
 
-CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.o: CMakeFiles/GameBoard.dir/flags.make
-CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.o: ../lib/GameBoardTemplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dangmu1996/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.o -c /home/dangmu1996/cpp_study/chapter12/12_2/lib/GameBoardTemplate.cpp
+CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o: CMakeFiles/GameBoard.dir/flags.make
+CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o: ../lib/GameBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o -c /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GameBoard.cpp
 
-CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dangmu1996/cpp_study/chapter12/12_2/lib/GameBoardTemplate.cpp > CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.i
+CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GameBoard.cpp > CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.i
 
-CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dangmu1996/cpp_study/chapter12/12_2/lib/GameBoardTemplate.cpp -o CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.s
+CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GameBoard.cpp -o CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.s
 
 # Object files for target GameBoard
 GameBoard_OBJECTS = \
-"CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.o"
+"CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o"
 
 # External object files for target GameBoard
 GameBoard_EXTERNAL_OBJECTS =
 
-libGameBoard.a: CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.o
+libGameBoard.a: CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o
 libGameBoard.a: CMakeFiles/GameBoard.dir/build.make
 libGameBoard.a: CMakeFiles/GameBoard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dangmu1996/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libGameBoard.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libGameBoard.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/GameBoard.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameBoard.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/GameBoard.dir/clean:
 .PHONY : CMakeFiles/GameBoard.dir/clean
 
 CMakeFiles/GameBoard.dir/depend:
-	cd /home/dangmu1996/cpp_study/chapter12/12_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dangmu1996/cpp_study/chapter12/12_2 /home/dangmu1996/cpp_study/chapter12/12_2 /home/dangmu1996/cpp_study/chapter12/12_2/build /home/dangmu1996/cpp_study/chapter12/12_2/build /home/dangmu1996/cpp_study/chapter12/12_2/build/CMakeFiles/GameBoard.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wego/cpp_study/cpp_study/chapter12/12_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wego/cpp_study/cpp_study/chapter12/12_2 /home/wego/cpp_study/cpp_study/chapter12/12_2 /home/wego/cpp_study/cpp_study/chapter12/12_2/build /home/wego/cpp_study/cpp_study/chapter12/12_2/build /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles/GameBoard.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GameBoard.dir/depend
 

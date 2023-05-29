@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dangmu1996/cpp_study/chapter12/12_2
+CMAKE_SOURCE_DIR = /home/wego/cpp_study/cpp_study/chapter12/12_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dangmu1996/cpp_study/chapter12/12_2/build
+CMAKE_BINARY_DIR = /home/wego/cpp_study/cpp_study/chapter12/12_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu1996/cpp_study/chapter12/12_2/build/CMakeFiles /home/dangmu1996/cpp_study/chapter12/12_2/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu1996/cpp_study/chapter12/12_2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,86 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named GameBoard
+
+# Build rule for target.
+GameBoard: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GameBoard
+.PHONY : GameBoard
+
+# fast build rule for target.
+GameBoard/fast:
+	$(MAKE) -f CMakeFiles/GameBoard.dir/build.make CMakeFiles/GameBoard.dir/build
+.PHONY : GameBoard/fast
+
+#=============================================================================
+# Target rules for targets named GamePiece
+
+# Build rule for target.
+GamePiece: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GamePiece
+.PHONY : GamePiece
+
+# fast build rule for target.
+GamePiece/fast:
+	$(MAKE) -f CMakeFiles/GamePiece.dir/build.make CMakeFiles/GamePiece.dir/build
+.PHONY : GamePiece/fast
+
+lib/ChessPiece.o: lib/ChessPiece.cpp.o
+
+.PHONY : lib/ChessPiece.o
+
+# target to build an object file
+lib/ChessPiece.cpp.o:
+	$(MAKE) -f CMakeFiles/GamePiece.dir/build.make CMakeFiles/GamePiece.dir/lib/ChessPiece.cpp.o
+.PHONY : lib/ChessPiece.cpp.o
+
+lib/ChessPiece.i: lib/ChessPiece.cpp.i
+
+.PHONY : lib/ChessPiece.i
+
+# target to preprocess a source file
+lib/ChessPiece.cpp.i:
+	$(MAKE) -f CMakeFiles/GamePiece.dir/build.make CMakeFiles/GamePiece.dir/lib/ChessPiece.cpp.i
+.PHONY : lib/ChessPiece.cpp.i
+
+lib/ChessPiece.s: lib/ChessPiece.cpp.s
+
+.PHONY : lib/ChessPiece.s
+
+# target to generate assembly for a file
+lib/ChessPiece.cpp.s:
+	$(MAKE) -f CMakeFiles/GamePiece.dir/build.make CMakeFiles/GamePiece.dir/lib/ChessPiece.cpp.s
+.PHONY : lib/ChessPiece.cpp.s
+
+lib/GameBoard.o: lib/GameBoard.cpp.o
+
+.PHONY : lib/GameBoard.o
+
+# target to build an object file
+lib/GameBoard.cpp.o:
+	$(MAKE) -f CMakeFiles/GameBoard.dir/build.make CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o
+.PHONY : lib/GameBoard.cpp.o
+
+lib/GameBoard.i: lib/GameBoard.cpp.i
+
+.PHONY : lib/GameBoard.i
+
+# target to preprocess a source file
+lib/GameBoard.cpp.i:
+	$(MAKE) -f CMakeFiles/GameBoard.dir/build.make CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.i
+.PHONY : lib/GameBoard.cpp.i
+
+lib/GameBoard.s: lib/GameBoard.cpp.s
+
+.PHONY : lib/GameBoard.s
+
+# target to generate assembly for a file
+lib/GameBoard.cpp.s:
+	$(MAKE) -f CMakeFiles/GameBoard.dir/build.make CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.s
+.PHONY : lib/GameBoard.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -156,9 +236,17 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... rebuild_cache"
+	@echo "... GameBoard"
+	@echo "... GamePiece"
+	@echo "... lib/ChessPiece.o"
+	@echo "... lib/ChessPiece.i"
+	@echo "... lib/ChessPiece.s"
+	@echo "... lib/GameBoard.o"
+	@echo "... lib/GameBoard.i"
+	@echo "... lib/GameBoard.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/include/Grid.hpp
+memory
+-
+vector
+-
+utility
+-
+optional
+-
+GridDefinition.hpp
+../lib/include/GridDefinition.hpp
+
+../lib/include/GridDefinition.hpp
+memory
+-
+vector
+-
+utility
+-
+optional
+-
+
+/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GridDefinition.cpp
+Grid.hpp
+/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/Grid.hpp
+

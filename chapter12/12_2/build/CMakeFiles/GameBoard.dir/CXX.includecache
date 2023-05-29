@@ -6,14 +6,12 @@
 
 #IncludeRegexTransform: 
 
-../lib/include/GameBoardTemplate.hpp
+../lib/include/GameBoard.hpp
 memory
 -
 vector
 -
 utility
--
-optional
 -
 GamePiece.hpp
 ../lib/include/GamePiece.hpp
@@ -22,7 +20,7 @@ GamePiece.hpp
 memory
 -
 
-/home/dangmu1996/cpp_study/chapter12/12_2/lib/GameBoardTemplate.cpp
-GameBoardTemplate.hpp
--
+/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GameBoard.cpp
+GameBoard.hpp
+/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GameBoard.hpp
 

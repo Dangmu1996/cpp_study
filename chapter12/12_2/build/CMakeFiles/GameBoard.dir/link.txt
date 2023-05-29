@@ -1,2 +1,2 @@
-/usr/bin/ar qc libGameBoard.a  CMakeFiles/GameBoard.dir/lib/GameBoardTemplate.cpp.o
+/usr/bin/ar qc libGameBoard.a  CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.o
 /usr/bin/ranlib libGameBoard.a
