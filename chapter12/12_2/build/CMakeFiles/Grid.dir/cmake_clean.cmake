@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Grid.dir/lib/GridDefinition.cpp.o"
+  "CMakeFiles/Grid.dir/lib/Grid.cpp.o"
   "libGrid.a"
   "libGrid.pdb"
 )

@@ -124,6 +124,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named Grid
+
+# Build rule for target.
+Grid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Grid
+.PHONY : Grid
+
+# fast build rule for target.
+Grid/fast:
+	$(MAKE) -f CMakeFiles/Grid.dir/build.make CMakeFiles/Grid.dir/build
+.PHONY : Grid/fast
+
+#=============================================================================
 # Target rules for targets named GameBoard
 
 # Build rule for target.
@@ -203,6 +216,33 @@ lib/GameBoard.cpp.s:
 	$(MAKE) -f CMakeFiles/GameBoard.dir/build.make CMakeFiles/GameBoard.dir/lib/GameBoard.cpp.s
 .PHONY : lib/GameBoard.cpp.s
 
+lib/Grid.o: lib/Grid.cpp.o
+
+.PHONY : lib/Grid.o
+
+# target to build an object file
+lib/Grid.cpp.o:
+	$(MAKE) -f CMakeFiles/Grid.dir/build.make CMakeFiles/Grid.dir/lib/Grid.cpp.o
+.PHONY : lib/Grid.cpp.o
+
+lib/Grid.i: lib/Grid.cpp.i
+
+.PHONY : lib/Grid.i
+
+# target to preprocess a source file
+lib/Grid.cpp.i:
+	$(MAKE) -f CMakeFiles/Grid.dir/build.make CMakeFiles/Grid.dir/lib/Grid.cpp.i
+.PHONY : lib/Grid.cpp.i
+
+lib/Grid.s: lib/Grid.cpp.s
+
+.PHONY : lib/Grid.s
+
+# target to generate assembly for a file
+lib/Grid.cpp.s:
+	$(MAKE) -f CMakeFiles/Grid.dir/build.make CMakeFiles/Grid.dir/lib/Grid.cpp.s
+.PHONY : lib/Grid.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -239,6 +279,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... rebuild_cache"
+	@echo "... Grid"
 	@echo "... GameBoard"
 	@echo "... GamePiece"
 	@echo "... lib/ChessPiece.o"
@@ -247,6 +288,9 @@ help:
 	@echo "... lib/GameBoard.o"
 	@echo "... lib/GameBoard.i"
 	@echo "... lib/GameBoard.s"
+	@echo "... lib/Grid.o"
+	@echo "... lib/Grid.i"
+	@echo "... lib/Grid.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

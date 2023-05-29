@@ -20,19 +20,7 @@ GamePiece.hpp
 memory
 -
 
-/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/include/Grid.hpp
-memory
--
-vector
--
-utility
--
-optional
--
-./GridDefinition.hpp
-/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/include/GridDefinition.hpp
-
-/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/include/GridDefinition.hpp
+../lib/include/Grid.hpp
 memory
 -
 vector
@@ -43,8 +31,8 @@ optional
 -
 
 /home/wego/cpp_study/cpp_study/chapter12/12_2/src/main.cpp
-../lib/include/Grid.hpp
-/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/include/Grid.hpp
+Grid.hpp
+/home/wego/cpp_study/cpp_study/chapter12/12_2/src/Grid.hpp
 GameBoard.hpp
 /home/wego/cpp_study/cpp_study/chapter12/12_2/src/GameBoard.hpp
 

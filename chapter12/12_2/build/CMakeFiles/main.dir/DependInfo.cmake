@@ -17,6 +17,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles/GamePiece.dir/DependInfo.cmake"
   "/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles/GameBoard.dir/DependInfo.cmake"
+  "/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles/Grid.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

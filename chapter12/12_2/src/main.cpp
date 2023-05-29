@@ -1,4 +1,4 @@
-#include "../lib/include/Grid.hpp"
+#include "Grid.hpp"
 #include "GameBoard.hpp"
 
 int main(int argc, char **argv)
@@ -6,6 +6,8 @@ int main(int argc, char **argv)
     Grid<int> myIntGrid;
 
     Grid<double> myDoubleGrid(11, 11);
+
+    //Grid<float> myfloatGrid; 
 
     int x = myIntGrid.at(0,0).value_or(0);
 

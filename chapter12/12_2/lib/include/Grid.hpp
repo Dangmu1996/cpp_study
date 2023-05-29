@@ -36,4 +36,9 @@ private:
 
 };
 
-#include "./GridDefinition.hpp"
+//#include "./GridDefinition.hpp"
+
+/*Compiling 할때는 이렇게 사용해야함.
+이게 선언 부분과 정의 부분을 한꺼번에 봐야 해서 그렇다고 함.
+템플릿은 빌드하는데 조금 이상하긴 함
+*/

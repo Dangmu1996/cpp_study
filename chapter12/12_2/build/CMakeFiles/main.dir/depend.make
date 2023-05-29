@@ -4,6 +4,5 @@
 CMakeFiles/main.dir/src/main.cpp.o: ../lib/include/GameBoard.hpp
 CMakeFiles/main.dir/src/main.cpp.o: ../lib/include/GamePiece.hpp
 CMakeFiles/main.dir/src/main.cpp.o: ../lib/include/Grid.hpp
-CMakeFiles/main.dir/src/main.cpp.o: ../lib/include/GridDefinition.hpp
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
 

@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/wego/cpp_study/cpp_study/chapter12/12_2/build
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
+all: CMakeFiles/Grid.dir/all
 all: CMakeFiles/GameBoard.dir/all
 all: CMakeFiles/GamePiece.dir/all
 
@@ -66,6 +67,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/Grid.dir/clean
 clean: CMakeFiles/GameBoard.dir/clean
 clean: CMakeFiles/GamePiece.dir/clean
 
@@ -75,16 +77,17 @@ clean: CMakeFiles/GamePiece.dir/clean
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
+CMakeFiles/main.dir/all: CMakeFiles/Grid.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/GameBoard.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/GamePiece.dir/all
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=5,6 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=7,8 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -98,6 +101,33 @@ main: CMakeFiles/main.dir/rule
 CMakeFiles/main.dir/clean:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
 .PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Grid.dir
+
+# All Build rule for target.
+CMakeFiles/Grid.dir/all:
+	$(MAKE) -f CMakeFiles/Grid.dir/build.make CMakeFiles/Grid.dir/depend
+	$(MAKE) -f CMakeFiles/Grid.dir/build.make CMakeFiles/Grid.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=5,6 "Built target Grid"
+.PHONY : CMakeFiles/Grid.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Grid.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Grid.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles 0
+.PHONY : CMakeFiles/Grid.dir/rule
+
+# Convenience name for target.
+Grid: CMakeFiles/Grid.dir/rule
+
+.PHONY : Grid
+
+# clean rule for target.
+CMakeFiles/Grid.dir/clean:
+	$(MAKE) -f CMakeFiles/Grid.dir/build.make CMakeFiles/Grid.dir/clean
+.PHONY : CMakeFiles/Grid.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/GameBoard.dir

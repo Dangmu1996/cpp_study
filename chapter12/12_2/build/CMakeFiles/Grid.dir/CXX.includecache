@@ -15,10 +15,10 @@ utility
 -
 optional
 -
-GridDefinition.hpp
-../lib/include/GridDefinition.hpp
 
-../lib/include/GridDefinition.hpp
+/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/Grid.cpp
+Grid.hpp
+/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/Grid.hpp
 memory
 -
 vector
@@ -27,8 +27,4 @@ utility
 -
 optional
 -
-
-/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GridDefinition.cpp
-Grid.hpp
-/home/wego/cpp_study/cpp_study/chapter12/12_2/lib/Grid.hpp
 

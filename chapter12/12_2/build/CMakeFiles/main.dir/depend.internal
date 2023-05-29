@@ -4,6 +4,5 @@
 CMakeFiles/main.dir/src/main.cpp.o
  ../lib/include/GameBoard.hpp
  ../lib/include/GamePiece.hpp
- /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/include/Grid.hpp
- /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/include/GridDefinition.hpp
+ ../lib/include/Grid.hpp
  /home/wego/cpp_study/cpp_study/chapter12/12_2/src/main.cpp

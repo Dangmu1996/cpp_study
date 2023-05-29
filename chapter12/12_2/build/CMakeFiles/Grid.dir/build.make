@@ -57,27 +57,27 @@ include CMakeFiles/Grid.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Grid.dir/flags.make
 
-CMakeFiles/Grid.dir/lib/GridDefinition.cpp.o: CMakeFiles/Grid.dir/flags.make
-CMakeFiles/Grid.dir/lib/GridDefinition.cpp.o: ../lib/GridDefinition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Grid.dir/lib/GridDefinition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grid.dir/lib/GridDefinition.cpp.o -c /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GridDefinition.cpp
+CMakeFiles/Grid.dir/lib/Grid.cpp.o: CMakeFiles/Grid.dir/flags.make
+CMakeFiles/Grid.dir/lib/Grid.cpp.o: ../lib/Grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Grid.dir/lib/Grid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grid.dir/lib/Grid.cpp.o -c /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/Grid.cpp
 
-CMakeFiles/Grid.dir/lib/GridDefinition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grid.dir/lib/GridDefinition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GridDefinition.cpp > CMakeFiles/Grid.dir/lib/GridDefinition.cpp.i
+CMakeFiles/Grid.dir/lib/Grid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grid.dir/lib/Grid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/Grid.cpp > CMakeFiles/Grid.dir/lib/Grid.cpp.i
 
-CMakeFiles/Grid.dir/lib/GridDefinition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grid.dir/lib/GridDefinition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/GridDefinition.cpp -o CMakeFiles/Grid.dir/lib/GridDefinition.cpp.s
+CMakeFiles/Grid.dir/lib/Grid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grid.dir/lib/Grid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wego/cpp_study/cpp_study/chapter12/12_2/lib/Grid.cpp -o CMakeFiles/Grid.dir/lib/Grid.cpp.s
 
 # Object files for target Grid
 Grid_OBJECTS = \
-"CMakeFiles/Grid.dir/lib/GridDefinition.cpp.o"
+"CMakeFiles/Grid.dir/lib/Grid.cpp.o"
 
 # External object files for target Grid
 Grid_EXTERNAL_OBJECTS =
 
-libGrid.a: CMakeFiles/Grid.dir/lib/GridDefinition.cpp.o
+libGrid.a: CMakeFiles/Grid.dir/lib/Grid.cpp.o
 libGrid.a: CMakeFiles/Grid.dir/build.make
 libGrid.a: CMakeFiles/Grid.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wego/cpp_study/cpp_study/chapter12/12_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libGrid.a"
