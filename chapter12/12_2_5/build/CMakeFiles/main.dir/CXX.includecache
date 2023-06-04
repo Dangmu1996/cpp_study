@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wego/cpp_study/cpp_study/chapter12/12_2_5/lib/include/Grid.hpp
+/home/dangmu1996/cpp_study/chapter12/12_2_5/lib/include/Grid.hpp
 optional
 -
 vector
@@ -16,9 +16,9 @@ memory
 utility
 -
 
-/home/wego/cpp_study/cpp_study/chapter12/12_2_5/src/main.cpp
+/home/dangmu1996/cpp_study/chapter12/12_2_5/src/main.cpp
 ../lib/include/Grid.hpp
-/home/wego/cpp_study/cpp_study/chapter12/12_2_5/lib/include/Grid.hpp
+/home/dangmu1996/cpp_study/chapter12/12_2_5/lib/include/Grid.hpp
 iostream
 -
 
