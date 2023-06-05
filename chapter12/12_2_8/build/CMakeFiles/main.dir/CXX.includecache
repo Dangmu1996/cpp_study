@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dangmu1996/cpp_study/chapter12/12_2_8/lib/include/GameBoard.hpp
+Grid.hpp
+/home/dangmu1996/cpp_study/chapter12/12_2_8/lib/include/Grid.hpp
+
+/home/dangmu1996/cpp_study/chapter12/12_2_8/lib/include/Grid.hpp
+memory
+-
+vector
+-
+utility
+-
+optional
+-
+
+/home/dangmu1996/cpp_study/chapter12/12_2_8/src/main.cpp
+../lib/include/GameBoard.hpp
+/home/dangmu1996/cpp_study/chapter12/12_2_8/lib/include/GameBoard.hpp
+iostream
+-
+
