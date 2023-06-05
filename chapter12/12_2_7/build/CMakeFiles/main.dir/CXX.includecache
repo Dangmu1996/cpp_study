@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dangmu1996/cpp_study/chapter12/12_2_7/lib/include/Grid.hpp
+memory
+-
+vector
+-
+utility
+-
+optional
+-
+
+/home/dangmu1996/cpp_study/chapter12/12_2_7/lib/include/GridString.hpp
+Grid.hpp
+/home/dangmu1996/cpp_study/chapter12/12_2_7/lib/include/Grid.hpp
+optional
+-
+string
+-
+vector
+-
+
+/home/dangmu1996/cpp_study/chapter12/12_2_7/src/main.cpp
+../lib/include/GridString.hpp
+/home/dangmu1996/cpp_study/chapter12/12_2_7/lib/include/GridString.hpp
+
