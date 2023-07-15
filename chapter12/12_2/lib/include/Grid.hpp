@@ -4,6 +4,8 @@
 #include <vector>
 #include <utility>
 #include <optional>
+#include <stdexcept>
+
 
 template <typename T>
 class Grid

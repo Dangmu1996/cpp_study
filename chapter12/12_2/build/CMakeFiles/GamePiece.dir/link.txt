@@ -1,2 +1,2 @@
-/usr/bin/ar qc libGamePiece.a  CMakeFiles/GamePiece.dir/lib/ChessPiece.cpp.o
+/usr/bin/ar qc libGamePiece.a CMakeFiles/GamePiece.dir/lib/ChessPiece.cpp.o
 /usr/bin/ranlib libGamePiece.a
