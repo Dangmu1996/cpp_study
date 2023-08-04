@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSpreadsheetCell.a  CMakeFiles/SpreadsheetCell.dir/lib/SpreadsheetCell.cpp.o
+/usr/bin/ranlib libSpreadsheetCell.a
