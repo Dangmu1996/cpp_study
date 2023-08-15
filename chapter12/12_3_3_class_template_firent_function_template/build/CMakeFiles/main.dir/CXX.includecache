@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dangmu1996/cpp_study/chapter12/12_3_3_class_template_firent_function_template/lib/include/Grid.hpp
+memory
+-
+vector
+-
+utility
+-
+optional
+-
+
+/home/dangmu1996/cpp_study/chapter12/12_3_3_class_template_firent_function_template/src/main.cpp
+../lib/include/Grid.hpp
+/home/dangmu1996/cpp_study/chapter12/12_3_3_class_template_firent_function_template/lib/include/Grid.hpp
+iostream
+-
+cstdio
+-
+
