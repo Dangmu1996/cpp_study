@@ -46,4 +46,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1_main.dir/DependInfo.cmake"
   "CMakeFiles/2_main.dir/DependInfo.cmake"
   "CMakeFiles/input_method.dir/DependInfo.cmake"
+  "CMakeFiles/input_manipulator.dir/DependInfo.cmake"
   )

@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/bu
 all: CMakeFiles/1_main.dir/all
 all: CMakeFiles/2_main.dir/all
 all: CMakeFiles/input_method.dir/all
+all: CMakeFiles/input_manipulator.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ preinstall:
 clean: CMakeFiles/1_main.dir/clean
 clean: CMakeFiles/2_main.dir/clean
 clean: CMakeFiles/input_method.dir/clean
+clean: CMakeFiles/input_manipulator.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/2_main.dir/clean:
 CMakeFiles/input_method.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_method.dir/build.make CMakeFiles/input_method.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_method.dir/build.make CMakeFiles/input_method.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles --progress-num=5,6 "Built target input_method"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles --progress-num=7,8 "Built target input_method"
 .PHONY : CMakeFiles/input_method.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +157,32 @@ input_method: CMakeFiles/input_method.dir/rule
 CMakeFiles/input_method.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_method.dir/build.make CMakeFiles/input_method.dir/clean
 .PHONY : CMakeFiles/input_method.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/input_manipulator.dir
+
+# All Build rule for target.
+CMakeFiles/input_manipulator.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_manipulator.dir/build.make CMakeFiles/input_manipulator.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_manipulator.dir/build.make CMakeFiles/input_manipulator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles --progress-num=5,6 "Built target input_manipulator"
+.PHONY : CMakeFiles/input_manipulator.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/input_manipulator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/input_manipulator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles 0
+.PHONY : CMakeFiles/input_manipulator.dir/rule
+
+# Convenience name for target.
+input_manipulator: CMakeFiles/input_manipulator.dir/rule
+.PHONY : input_manipulator
+
+# clean rule for target.
+CMakeFiles/input_manipulator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_manipulator.dir/build.make CMakeFiles/input_manipulator.dir/clean
+.PHONY : CMakeFiles/input_manipulator.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

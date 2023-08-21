@@ -155,6 +155,19 @@ input_method/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_method.dir/build.make CMakeFiles/input_method.dir/build
 .PHONY : input_method/fast
 
+#=============================================================================
+# Target rules for targets named input_manipulator
+
+# Build rule for target.
+input_manipulator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 input_manipulator
+.PHONY : input_manipulator
+
+# fast build rule for target.
+input_manipulator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_manipulator.dir/build.make CMakeFiles/input_manipulator.dir/build
+.PHONY : input_manipulator/fast
+
 src/1_main.o: src/1_main.cc.o
 .PHONY : src/1_main.o
 
@@ -203,6 +216,30 @@ src/2_main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_main.dir/build.make CMakeFiles/2_main.dir/src/2_main.cc.s
 .PHONY : src/2_main.cc.s
 
+src/input_manipulator.o: src/input_manipulator.cc.o
+.PHONY : src/input_manipulator.o
+
+# target to build an object file
+src/input_manipulator.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_manipulator.dir/build.make CMakeFiles/input_manipulator.dir/src/input_manipulator.cc.o
+.PHONY : src/input_manipulator.cc.o
+
+src/input_manipulator.i: src/input_manipulator.cc.i
+.PHONY : src/input_manipulator.i
+
+# target to preprocess a source file
+src/input_manipulator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_manipulator.dir/build.make CMakeFiles/input_manipulator.dir/src/input_manipulator.cc.i
+.PHONY : src/input_manipulator.cc.i
+
+src/input_manipulator.s: src/input_manipulator.cc.s
+.PHONY : src/input_manipulator.s
+
+# target to generate assembly for a file
+src/input_manipulator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_manipulator.dir/build.make CMakeFiles/input_manipulator.dir/src/input_manipulator.cc.s
+.PHONY : src/input_manipulator.cc.s
+
 src/input_method.o: src/input_method.cc.o
 .PHONY : src/input_method.o
 
@@ -237,6 +274,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 1_main"
 	@echo "... 2_main"
+	@echo "... input_manipulator"
 	@echo "... input_method"
 	@echo "... src/1_main.o"
 	@echo "... src/1_main.i"
@@ -244,6 +282,9 @@ help:
 	@echo "... src/2_main.o"
 	@echo "... src/2_main.i"
 	@echo "... src/2_main.s"
+	@echo "... src/input_manipulator.o"
+	@echo "... src/input_manipulator.i"
+	@echo "... src/input_manipulator.s"
 	@echo "... src/input_method.o"
 	@echo "... src/input_method.i"
 	@echo "... src/input_method.s"
