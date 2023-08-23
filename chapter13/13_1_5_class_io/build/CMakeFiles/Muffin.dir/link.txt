@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMuffin.a CMakeFiles/Muffin.dir/lib/Muffin.cpp.o
+/usr/bin/ranlib libMuffin.a
