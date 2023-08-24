@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ostream_example.dir/src/ostream_example.cc.o -o ostream_example 
