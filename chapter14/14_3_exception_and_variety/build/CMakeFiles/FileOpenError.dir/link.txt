@@ -1,0 +1,2 @@
+/usr/bin/ar qc libFileOpenError.a CMakeFiles/FileOpenError.dir/lib/FileOpenError.cpp.o
+/usr/bin/ranlib libFileOpenError.a

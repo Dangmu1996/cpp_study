@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/suitable_exception.dir/src/suitable_exception.cc.o -o suitable_exception 
