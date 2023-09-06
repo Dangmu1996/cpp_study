@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/initializer_exception.dir/src/initializer_exception.cc.o -o initializer_exception  libMatrix.a libElement.a 
