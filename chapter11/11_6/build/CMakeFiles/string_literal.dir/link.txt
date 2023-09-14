@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/string_literal.dir/src/string_literal.cpp.o  -o string_literal 

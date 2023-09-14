@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/type_allias.dir/src/tpye_allias.cc.o  -o type_allias 

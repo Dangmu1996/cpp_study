@@ -1,5 +1,0 @@
-/home/dangmu1996/cpp_study/scope_n_attribute/build/CMakeFiles/edit_cache.dir
-/home/dangmu1996/cpp_study/scope_n_attribute/build/CMakeFiles/rebuild_cache.dir
-/home/dangmu1996/cpp_study/scope_n_attribute/build/CMakeFiles/mybe_unused.dir
-/home/dangmu1996/cpp_study/scope_n_attribute/build/CMakeFiles/nonreturn.dir
-/home/dangmu1996/cpp_study/scope_n_attribute/build/CMakeFiles/scope.dir

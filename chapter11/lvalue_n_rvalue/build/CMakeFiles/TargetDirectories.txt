@@ -1,3 +1,0 @@
-/home/wego/cpp_study/chapter11/lvalue_n_rvalue/build/CMakeFiles/rebuild_cache.dir
-/home/wego/cpp_study/chapter11/lvalue_n_rvalue/build/CMakeFiles/main.dir
-/home/wego/cpp_study/chapter11/lvalue_n_rvalue/build/CMakeFiles/edit_cache.dir

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libPreference.a  CMakeFiles/Preference.dir/lib/Preference.cpp.o
-/usr/bin/ranlib libPreference.a

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/deprecated.dir/src/deprecated.cc.o  -o deprecated 

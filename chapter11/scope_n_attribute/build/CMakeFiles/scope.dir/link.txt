@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/scope.dir/src/scope.cc.o  -o scope 

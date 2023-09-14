@@ -1,5 +1,0 @@
-/home/dangmu1996/cpp_study/11_6/build/CMakeFiles/rebuild_cache.dir
-/home/dangmu1996/cpp_study/11_6/build/CMakeFiles/edit_cache.dir
-/home/dangmu1996/cpp_study/11_6/build/CMakeFiles/raw_mode_complex.dir
-/home/dangmu1996/cpp_study/11_6/build/CMakeFiles/string_literal.dir
-/home/dangmu1996/cpp_study/11_6/build/CMakeFiles/complex_literal.dir

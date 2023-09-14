@@ -1,6 +1,0 @@
-/home/wego/cpp_study/chapter12/12_2/build/CMakeFiles/GamePiece.dir
-/home/wego/cpp_study/chapter12/12_2/build/CMakeFiles/GameBoard.dir
-/home/wego/cpp_study/chapter12/12_2/build/CMakeFiles/Grid.dir
-/home/wego/cpp_study/chapter12/12_2/build/CMakeFiles/main.dir
-/home/wego/cpp_study/chapter12/12_2/build/CMakeFiles/edit_cache.dir
-/home/wego/cpp_study/chapter12/12_2/build/CMakeFiles/rebuild_cache.dir

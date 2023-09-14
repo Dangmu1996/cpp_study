@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/nondiscard.dir/src/nondiscard.cc.o  -o nondiscard 

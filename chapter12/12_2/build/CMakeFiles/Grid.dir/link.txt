@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGrid.a CMakeFiles/Grid.dir/lib/Grid.cpp.o
-/usr/bin/ranlib libGrid.a

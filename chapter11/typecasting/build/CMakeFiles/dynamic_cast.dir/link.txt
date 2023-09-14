@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/dynamic_cast.dir/src/dynamic_cast.cc.o  -o dynamic_cast 

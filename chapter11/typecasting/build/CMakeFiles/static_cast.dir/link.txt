@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/static_cast.dir/src/static_cast.cc.o  -o static_cast 

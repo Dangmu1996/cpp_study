@@ -1,3 +1,0 @@
-/home/wego/cpp_study/chapter11/diff_ref_n_ptr/build/CMakeFiles/rebuild_cache.dir
-/home/wego/cpp_study/chapter11/diff_ref_n_ptr/build/CMakeFiles/main.dir
-/home/wego/cpp_study/chapter11/diff_ref_n_ptr/build/CMakeFiles/edit_cache.dir

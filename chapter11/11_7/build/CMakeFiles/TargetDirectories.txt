@@ -1,5 +1,0 @@
-/home/dangmu1996/cpp_study/11_7/build/CMakeFiles/rebuild_cache.dir
-/home/dangmu1996/cpp_study/11_7/build/CMakeFiles/edit_cache.dir
-/home/dangmu1996/cpp_study/11_7/build/CMakeFiles/main.dir
-/home/dangmu1996/cpp_study/11_7/build/CMakeFiles/Preference.dir
-/home/dangmu1996/cpp_study/11_7/build/CMakeFiles/logger.dir
