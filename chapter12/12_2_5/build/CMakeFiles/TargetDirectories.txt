@@ -1,3 +1,0 @@
-/home/dangmu1996/cpp_study/chapter12/12_2_5/build/CMakeFiles/rebuild_cache.dir
-/home/dangmu1996/cpp_study/chapter12/12_2_5/build/CMakeFiles/edit_cache.dir
-/home/dangmu1996/cpp_study/chapter12/12_2_5/build/CMakeFiles/main.dir
