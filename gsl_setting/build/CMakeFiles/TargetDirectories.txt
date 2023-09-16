@@ -1,4 +1,0 @@
-/home/dangmu1996/cpp_study/cpp_study/gsl_setting/build/CMakeFiles/rebuild_cache.dir
-/home/dangmu1996/cpp_study/cpp_study/gsl_setting/build/CMakeFiles/edit_cache.dir
-/home/dangmu1996/cpp_study/cpp_study/gsl_setting/build/CMakeFiles/polynomials.dir
-/home/dangmu1996/cpp_study/cpp_study/gsl_setting/build/CMakeFiles/gsl_example.dir

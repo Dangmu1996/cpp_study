@@ -1,2 +1,0 @@
-/usr/bin/ar qc libFileError.a CMakeFiles/FileError.dir/lib/FileError.cpp.o
-/usr/bin/ranlib libFileError.a

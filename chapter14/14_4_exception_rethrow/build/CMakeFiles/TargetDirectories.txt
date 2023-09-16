@@ -1,3 +1,0 @@
-/home/dangmu/cpp_study/chapter14/14_4_exception_rethrow/build/CMakeFiles/main.dir
-/home/dangmu/cpp_study/chapter14/14_4_exception_rethrow/build/CMakeFiles/edit_cache.dir
-/home/dangmu/cpp_study/chapter14/14_4_exception_rethrow/build/CMakeFiles/rebuild_cache.dir

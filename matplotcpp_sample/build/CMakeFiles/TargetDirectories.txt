@@ -1,3 +1,0 @@
-/home/wego/cpp_study/matplotcpp_sample/build/CMakeFiles/main.dir
-/home/wego/cpp_study/matplotcpp_sample/build/CMakeFiles/edit_cache.dir
-/home/wego/cpp_study/matplotcpp_sample/build/CMakeFiles/rebuild_cache.dir

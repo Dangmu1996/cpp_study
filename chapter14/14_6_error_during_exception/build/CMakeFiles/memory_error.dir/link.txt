@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/memory_error.dir/src/memory_error.cc.o -o memory_error 

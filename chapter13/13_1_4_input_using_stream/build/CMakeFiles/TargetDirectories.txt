@@ -1,6 +1,0 @@
-/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles/1_main.dir
-/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles/2_main.dir
-/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles/input_method.dir
-/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles/input_manipulator.dir
-/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles/edit_cache.dir
-/home/dangmu/cpp_study/chapter13/13_1_4_input_using_stream/build/CMakeFiles/rebuild_cache.dir

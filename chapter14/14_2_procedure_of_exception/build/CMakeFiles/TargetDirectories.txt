@@ -1,8 +1,0 @@
-/home/dangmu/cpp_study/chapter14/14_2_procedure_of_exception/build/CMakeFiles/main.dir
-/home/dangmu/cpp_study/chapter14/14_2_procedure_of_exception/build/CMakeFiles/try_catch_basic.dir
-/home/dangmu/cpp_study/chapter14/14_2_procedure_of_exception/build/CMakeFiles/multi_except.dir
-/home/dangmu/cpp_study/chapter14/14_2_procedure_of_exception/build/CMakeFiles/not_same_except.dir
-/home/dangmu/cpp_study/chapter14/14_2_procedure_of_exception/build/CMakeFiles/every_exception.dir
-/home/dangmu/cpp_study/chapter14/14_2_procedure_of_exception/build/CMakeFiles/terminate.dir
-/home/dangmu/cpp_study/chapter14/14_2_procedure_of_exception/build/CMakeFiles/edit_cache.dir
-/home/dangmu/cpp_study/chapter14/14_2_procedure_of_exception/build/CMakeFiles/rebuild_cache.dir

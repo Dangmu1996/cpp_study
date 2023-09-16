@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/2_main.dir/src/2_main.cc.o -o 2_main 

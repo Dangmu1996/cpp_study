@@ -1,4 +1,0 @@
-/home/dangmu/cpp_study/chapter13/13_1_5_class_io/build/CMakeFiles/Muffin.dir
-/home/dangmu/cpp_study/chapter13/13_1_5_class_io/build/CMakeFiles/main.dir
-/home/dangmu/cpp_study/chapter13/13_1_5_class_io/build/CMakeFiles/edit_cache.dir
-/home/dangmu/cpp_study/chapter13/13_1_5_class_io/build/CMakeFiles/rebuild_cache.dir

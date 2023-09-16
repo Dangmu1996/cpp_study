@@ -1,3 +1,0 @@
-/home/wego/cpp_study/eigen_setting/build/CMakeFiles/main.dir
-/home/wego/cpp_study/eigen_setting/build/CMakeFiles/edit_cache.dir
-/home/wego/cpp_study/eigen_setting/build/CMakeFiles/rebuild_cache.dir

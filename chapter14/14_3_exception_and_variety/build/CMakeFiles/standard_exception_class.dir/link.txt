@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/standard_exception_class.dir/src/standard_exception_class.cc.o -o standard_exception_class 

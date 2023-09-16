@@ -1,3 +1,0 @@
-/home/dangmu/cpp_study/chapter13/13_1_3_4_ouput_manipulator/build/CMakeFiles/main.dir
-/home/dangmu/cpp_study/chapter13/13_1_3_4_ouput_manipulator/build/CMakeFiles/edit_cache.dir
-/home/dangmu/cpp_study/chapter13/13_1_3_4_ouput_manipulator/build/CMakeFiles/rebuild_cache.dir
