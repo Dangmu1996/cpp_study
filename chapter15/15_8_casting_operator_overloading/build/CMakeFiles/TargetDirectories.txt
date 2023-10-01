@@ -1,4 +1,0 @@
-/home/dangmu/cpp_study/chapter15/15_8_casting_operator_overloading/build/CMakeFiles/SpreadsheetCell.dir
-/home/dangmu/cpp_study/chapter15/15_8_casting_operator_overloading/build/CMakeFiles/main.dir
-/home/dangmu/cpp_study/chapter15/15_8_casting_operator_overloading/build/CMakeFiles/edit_cache.dir
-/home/dangmu/cpp_study/chapter15/15_8_casting_operator_overloading/build/CMakeFiles/rebuild_cache.dir
