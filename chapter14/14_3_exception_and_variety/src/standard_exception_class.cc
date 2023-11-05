@@ -41,6 +41,8 @@ int main(int argc, char **argv)
 {
     const string fileName = "../data/IntegerFile.txt";
     
+
+
     vector<int> myInts;
     try
     {
@@ -56,12 +58,8 @@ int main(int argc, char **argv)
         cerr<< e.what()<<endl;
         return 2;
     }
-    // 이렇게 하면 두게를 합칠 수 있다. exception이 상위 클래스이기 때문임 하지만 이러면 구체적인 처리를 하는게 힘듬
-    // catch(const exception& e)
-    // {
-    //     cerr<<e.what()<<endl;
-    //     return 2;
-    // }
+    
+
 
     for(const auto& element: myInts)
     {
