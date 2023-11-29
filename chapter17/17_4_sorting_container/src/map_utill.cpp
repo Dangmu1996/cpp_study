@@ -83,5 +83,36 @@ int main()
     newMap[1] = Data(4);
     newMap[1] = Data(6); // 키가 1인 원소의 값이 바뀐다.
 
+    for(auto iter = cbegin(dataMap); iter != cend(dataMap); ++iter)
+    {
+        cout<<iter -> second.getValue()<<endl;
+    }
+
+    for(const auto& p : dataMap)
+    {
+        cout<<p.second.getValue()<<endl;
+    }
+
+    for(const auto& [key, data] : dataMap)
+    {
+        cout<<data.getValue()<<endl;
+    }
+
+    //값이 있는지 확인하고, 있으면 set하는 방법
+    auto it = dataMap.find(1);
+    if(it != end(dataMap))
+    {
+        it->second.setValue(100);
+    }
+
+    //원소 삭제하기
+    cout<<"There are "<<newMap.count(1)<<" elements with key 1"<<endl;
+    newMap.erase(1);
+    cout<<"There are "<<newMap.count(1)<<" elements with key 1"<<endl;
+
+    map<int, Data> dataMap2;
+    auto extractedNode = dataMap.extract(1);
+    dataMap2.insert(std::move(extractedNode));
+
     return 0;
 }
