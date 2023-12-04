@@ -5,9 +5,11 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_library(Bank ./lib/include/Bank.hpp ./lib/Bank.cpp)
 add_library(BuddyList ./lib/include/BuddyLists.hpp ./lib/BuddyLists.cpp)
+add_library(AccessList ./lib/include/AccessList.hpp ./lib/AccessList.cpp)
 
 target_include_directories(Bank PUBLIC ./lib/include/)
 target_include_directories(BuddyList PUBLIC ./lib/include/)
+target_include_directories(AccessList PUBLIC ./lib/include/)
 
 add_executable(pair_utill_class ./src/pair_utill_class.cpp)
 add_executable(map_utill ./src/map_utill.cpp)
@@ -17,3 +19,6 @@ target_link_libraries(map_main Bank)
 
 add_executable(multimap_main ./src/multimap_main.cpp)
 target_link_libraries(multimap_main BuddyList)
+
+add_executable(set_main ./src/set_main.cpp)
+target_link_libraries(set_main AccessList)
