@@ -45,5 +45,50 @@ void CableCompany::newCustomer(string_view name, const bitset<kNumChannels>& cha
 void CableCompany::addChannel(string_view name, int channel)
 {
     // 지정한 가입자가 현재 가입한 채널을 조회한다.
-    
+    auto & customerChannels = getCustomerChannelsHelper(name);
+    // 가입자를 찾았다면 채널을 설정한다.
+    customerChannels.set(channel);
+}
+
+void CableCompany::removeChannel(string_view name, int channel)
+{
+    // 지정한 가입자가 현재 신청한 채널을 가져온다.
+    auto & customerChannels = getCustomerChannelsHelper(name);
+    // 가입자를 찾았다면 채널을 삭제한다.
+    customerChannels.reset(channel);
+}
+
+// void addPackageToCustomer(std::string_view name, std::string_view package);
+void CableCompany::addPackageToCustomer(string_view name, string_view package)
+{
+    // 지정한 패키지에 속한 채널을 가져온다.
+    auto & packageCahnnels = getPackage(package);
+    // 지정한 가입자가 선택한 채널을 가져온다.
+    auto & customerChannels = getCustomerChannelsHelper(name);
+    // 현재 가입자가 신청한 채널에 패키지 채널을 or 연산으로 추가한다.
+    customerChannels != packageCahnnels;
+}
+
+void CableCompany::deleteCustomer(string_view name)
+{
+    mCustomers.erase(name.data());
+}
+
+const bitset<kNumChannels>& CableCompany::getCustomerChannels(string_view name) const
+{
+    // 코드 중복을 피하도록 const_cast()로 getCustomerChannelsHelper()에 전달한다.
+    return const_cast<CableCompany*>(this)->getCustomerChannelsHelper(name);
+}
+
+bitset<kNumChannels>& CableCompany::getCustomerChannelsHelper(string_view name)
+{
+    // 가입자에 대한 레퍼런스를 가져온다.
+    auto it = mCustomers.find(name.data());
+    if(it==end(mCustomers)){
+        throw invalid_argument("Unknown customer");
+    }
+    // 가입자를 찾은 경우
+    // 이 값은 name/bitset pair에 대한 레퍼런스임을 주의한다.
+    // bitset은 두 번째 필드에 있다.
+    return it->second;
 }
