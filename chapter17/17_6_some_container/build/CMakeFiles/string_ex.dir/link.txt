@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/string_ex.dir/src/string_ex.cpp.o -o string_ex 

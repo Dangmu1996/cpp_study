@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCableCompany.a CMakeFiles/CableCompany.dir/lib/CableCompany.cpp.o
-/usr/bin/ranlib libCableCompany.a
