@@ -7,3 +7,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(find ./src/find.cpp)
 add_executable(find_if ./src/find_if.cpp)
+add_executable(accumulate ./src/accumulate.cpp)
