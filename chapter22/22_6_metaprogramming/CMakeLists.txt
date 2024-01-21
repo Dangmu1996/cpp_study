@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.10)
+project(22_6_metaprogramming)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(factorial ./src/factorial.cpp)
+add_executable(loop_unrolling ./src/loop_unrolling.cpp)
+add_executable(tuple_print ./src/tuple_print.cpp)
+add_executable(tuple_print_2 ./src/tuple_print_2.cpp)
+add_executable(constexpr_if ./src/constexpr_if.cpp)
+add_executable(folding ./src/folding.cpp)
