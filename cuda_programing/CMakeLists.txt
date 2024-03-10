@@ -6,3 +6,6 @@ set_target_properties(01_hello_cuda PROPERTIES CUDA_ARCHITECTURES "86")
 
 add_executable(02_kernels ./src/02_kernels.cu)
 set_target_properties(02_kernels PROPERTIES CUDA_ARCHITECTURES "86")
+
+add_executable(03_thread_hierachy ./src/03_thread_hierachy.cu)
+set_target_properties(03_thread_hierachy PROPERTIES CUDA_ARCHITECTURES "86")
