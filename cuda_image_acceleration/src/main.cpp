@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    cv::Mat inputImage = cv::imread("../data/lena.png", cv::IMREAD_COLOR);
+    cv::Mat inputImage = cv::imread("../data/gpt.png", cv::IMREAD_COLOR);
     if(inputImage.empty()){
         cerr << "failed to load input image" << endl; 
     }
